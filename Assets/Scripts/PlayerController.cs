@@ -70,6 +70,7 @@ public class PlayerController : MonoBehaviour
         }
         else if(health == 0)
         {
+            //Destroy(gameObject);
             Debug.Log("GAME OVER");
         }
     }
